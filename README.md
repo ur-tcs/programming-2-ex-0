@@ -25,7 +25,8 @@ A step-by-step guide to install Scala 3 and VSCode on your computer, as well a s
 ## Your First Project in Scala
 
 ### With Github
-* Clone or download the following repository: `git clone git@github.com:jcailler/programming-2-ex-0.git` or https://github.com/jcailler/programming-2-ex-0
+* Go to the following page: [https://github.com/ur-tcs/programming-2-ex-0.git](https://github.com/ur-tcs/programming-2-ex-0.git).
+* Clone or fork the repository: git clone https://github.com/ur-tcs/programming-2-ex-0.git or download it by clicking on the gree <code> button and select download.
 * Go into programming-2-ex-0: `cd programming-2-ex-0/hello-world`.
 * Eventually VSCode will ask you to import the build, please click “Import build”
 * Run `sbt`
