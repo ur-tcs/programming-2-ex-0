@@ -35,11 +35,14 @@ This repository contains a simple hello-world project that you can use to get st
 
 * You first need to create a local copy of the repository contents on your computer. If you have `git` installed on your computer, you can *clone* the repository using the command `git clone https://github.com/ur-tcs/programming-2-ex-0.git`, which will copy over all files to a sub-directory of your current directory. Alternatively, in your web browser you can download the repository contents by clicking on the green `<code>` button, selecting `Download ZIP`, and then unpacking the downloaded zip file.
 * In VSCode, choose `File - Open Folder` and select the `programming-2-ex-0` directory. You will be able to see the different downloaded files in the `Explorer` pane, in particular the `build.sbt` file containing the Scala build configuration, and the sources `src/main/scala/Main.scala`.
-* To compile and run this project, you need to import the build settings into VSCode. Scala Metals might by itself offer to "Import build", which you can agree to. Otherwise, change to the Metals pane (the "m" icon on the left side) and select the "Build Command" "Import build".
+* To compile and run this project, you need to import the build settings into VSCode. Scala Metals might by itself offer to `Import build`, which you can agree to. Otherwise, change to the Metals pane (the "m" icon on the left side) and select the `Build Command` `Import build`.
 * Once the project has been compiled, you can execute the program by selecting the `Main.scala` file and selecting `run` or `debug`.
 * You can run the hello-world program also from the command line. For this, change to the directory `programming-2-ex-0`, start `sbt` and then `run`.
 
-### By Yourself
+### By setting up a new project using sbt
+
+For the following steps to work, you need to have followed the "Scala Installation" part above.
+
 * Create a folder `programming-2-ex-0`
 * Go into this folder: `cd programming-2-ex-0`
 * Run `sbt new scala/scala3.g8`
