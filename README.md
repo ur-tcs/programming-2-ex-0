@@ -89,4 +89,4 @@ When you compiled it, new files appears. Do not pay too much attention to them f
 
 ## Next steps
 
-You can now start with the first exercises of the course: https://github.com/ur-tcs/programming-2-ex-1
+You can now start with the first exercise of the course: https://github.com/ur-tcs/programming-2-ex-1
