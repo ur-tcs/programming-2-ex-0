@@ -13,12 +13,12 @@ This page provides a step-by-step guide to install Scala 3 and/or Visual Studio 
 
 ### Scala Installation
 
-We recommend that you use VSCode to do the course exercises. In this case, it is not necessary to install Scala separately, the VSCode Scala extensions (below) suffice. If you prefer, however, you can also install Scala and the Scala build tool `sbt` yourself and use any other IDE or text editor.
+We recommend that you use VSCode to do the course exercises. In this case, it is not strictly necessary to install Scala separately, the VSCode Scala extensions (below) suffice. However, if you want to use Scala in interactive mode, or to use other text editor for writing Scala code, follow those steps to install Scala and the Scala build tool `sbt`:
 
 * Open your favourite web browser and go to this webpage: https://docs.scala-lang.org/getting-started/index.html
 * Follow the instruction related to your OS to install Scala version 3
 * You may need to restart your terminal, log out, or reboot in order for the changes to take effect
-
+* You should have the commands `scala` and `sbt` available now.
 
 ### Scala Extension for VSCode
 
@@ -33,7 +33,10 @@ The extension "Scala (Metals)" adds functionality to work with Scala to VSCode, 
 
 This repository contains a simple hello-world project that you can use to get started. For the following steps to work, you need to have followed the "VSCode Installation" and "Scala Extension for VSCode" above.
 
-* You first need to create a local copy of the repository contents on your computer. If you have `git` installed on your computer, you can *clone* the repository using the command `git clone https://github.com/ur-tcs/programming-2-ex-0.git`, which will copy over all files to a sub-directory of your current directory. Alternatively, in your web browser you can download the repository contents by clicking on the green `<code>` button, selecting `Download ZIP`, and then unpacking the downloaded zip file.
+* You first need to create a local copy of the repository contents on your computer. There are several ways to do this:
+    - If you have `git` installed on your computer, you can *clone* the repository using the command `git clone https://github.com/ur-tcs/programming-2-ex-0.git`, which will copy over all files to a sub-directory of your current directory.
+    - In VSCode, you can select `File - New Window` and the command `Clone Git Repository ...`. Provide the URL `https://github.com/ur-tcs/programming-2-ex-0.git`
+    - In your web browser you can download the repository contents by clicking on the green `<code>` button, selecting `Download ZIP`, and then unpacking the downloaded zip file.
 * In VSCode, choose `File - Open Folder` and select the `programming-2-ex-0` directory. You will be able to see the different downloaded files in the `Explorer` pane, in particular the `build.sbt` file containing the Scala build configuration, and the sources `src/main/scala/Main.scala`.
 * To compile and run this project, you need to import the build settings into VSCode. Scala Metals might by itself offer to `Import build`, which you can agree to. Otherwise, change to the Metals pane (the "m" icon on the left side) and select the `Build Command` `Import build`.
 * Once the project has been compiled, you can execute the program by selecting the `Main.scala` file and selecting `run` or `debug`.
