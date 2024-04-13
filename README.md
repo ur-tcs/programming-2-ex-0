@@ -2,6 +2,9 @@
 
 This page provides a step-by-step guide to install Scala 3 and/or Visual Studio Code (VSCode) on your computer, as well a some useful plugins. If you are using the lab computers at the University of Regensburg (CIP-Pools), you can directly start VSCode and jump to the part about Scala extensions.
 
+*Warning:* It's essential to ensure that the paths to your projects do not contain spaces, special characters, or non-English letters. This is especially relevant on Windows, where historically, issues arose with usernames containing spaces or special characters.
+
+
 ## VSCode Installation
 
 * Open your favourite web browser and go to this webpage: https://code.visualstudio.com/download
@@ -19,7 +22,7 @@ We recommend that you use VSCode to do the course exercises. In this case, it is
 ## Scala Extension for VSCode
 
 * Install Metals: 
-    - Directly in the "Extensions" part of VSCode (recommanded)
+    - Directly in the "Extensions" part of VSCode (recommended)
     - In command line: https://marketplace.visualstudio.com/items?itemName=scalameta.metals
 
 ## Your First Project in Scala
