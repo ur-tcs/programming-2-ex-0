@@ -22,7 +22,7 @@ We recommend that you use VSCode to do the course exercises. In this case, it is
 
 ### Scala Extension for VSCode
 
-The extension "Scala (Metals)" adds various kinds of functionality to work with Scala to VSCode. To install this extension:
+The extension "Scala (Metals)" adds functionality to work with Scala to VSCode, and is needed if you want to solve the exercises with VSCode. To install this extension:
 
 * Change to the "Extensions" pane and search for "Metals"
 * In command line: https://marketplace.visualstudio.com/items?itemName=scalameta.metals
