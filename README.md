@@ -4,13 +4,14 @@ This page provides a step-by-step guide to install Scala 3 and/or Visual Studio 
 
 *Warning:* It's essential to ensure that the paths to your projects do not contain spaces, special characters, or non-English letters. This is especially relevant on Windows, where historically, issues arose with usernames containing spaces or special characters.
 
+## Tool installation
 
-## VSCode Installation
+### VSCode Installation
 
 * Open your favourite web browser and go to this webpage: https://code.visualstudio.com/download
-* Download the executable corresponding to your distribution and follow the instructions.
+* Download the executable corresponding to your OS and follow the instructions.
 
-## Scala Installation
+### Scala Installation
 
 We recommend that you use VSCode to do the course exercises. In this case, it is not necessary to install Scala separately, the VSCode Scala extensions (below) suffice. If you prefer, however, you can also install Scala and the Scala build tool `sbt` yourself and use any other IDE or text editor.
 
@@ -19,11 +20,12 @@ We recommend that you use VSCode to do the course exercises. In this case, it is
 * You may need to restart your terminal, log out, or reboot in order for the changes to take effect
 
 
-## Scala Extension for VSCode
+### Scala Extension for VSCode
 
-* Install Metals: 
-    - Directly in the "Extensions" part of VSCode (recommended)
-    - In command line: https://marketplace.visualstudio.com/items?itemName=scalameta.metals
+The extension "Scala (Metals)" adds various kinds of functionality to work with Scala to VSCode. To install this extension:
+
+* Change to the "Extensions" pane and search for "Metals"
+* In command line: https://marketplace.visualstudio.com/items?itemName=scalameta.metals
 
 ## Your First Project in Scala
 
