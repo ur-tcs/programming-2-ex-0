@@ -86,3 +86,7 @@ When you compiled it, new files appears. Do not pay too much attention to them f
     - ...
 ```
 * When we ask you to type and/or run a specific command (for instance, `git clone myProject`), we can directly give you the command or write it that way: ```$ git clone myProject```. The `$` symbol is called the prompt and is not part of the command. Writing a project is a convention used to indicate that the following command should be executed in a terminal.
+
+## Next steps
+
+You can now start with the first exercises of the course: https://github.com/ur-tcs/programming-2-ex-1
