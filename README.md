@@ -78,7 +78,7 @@ Here is the initial project that you have downloaded:
 When you compiled it, new files appears. Do not pay too much attention to them for now, you are going to work with `Main.scala`, at least at the beginning. 
 
 ## Exercises Management for this Course
-* Each exercise if going to be on a different github repository. We advice you to create a folder (for example, `ProgrammingII`) and to put all exercises within, in order to have the following hierarchy: 
+* We will provide each exercise in a separate github repository. We recommend that you to create a folder (for example, `ProgrammingII`) for all the exercises, in order to have the following hierarchy: 
 ```
 - ProgrammingII
     - programming-2-ex-0
