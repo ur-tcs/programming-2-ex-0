@@ -33,7 +33,7 @@ The extension "Scala (Metals)" adds various kinds of functionality to work with 
 
 This repository contains a simple hello-world project that you can use to get started.
 
-* You first need to create a local copy of the repository contents on your computer. If you have `git` installed on your computer, for this you can *clone* the repository using the command `git clone https://github.com/ur-tcs/programming-2-ex-0.git`. Alternatively, in your web browser you can download the repository contents by clicking on the green `<code>` button, selecting `Download ZIP`, and then unpacking the downloaded zip file.
+* You first need to create a local copy of the repository contents on your computer. If you have `git` installed on your computer, you can *clone* the repository using the command `git clone https://github.com/ur-tcs/programming-2-ex-0.git`, which will copy over all files to a sub-directory of your current directory. Alternatively, in your web browser you can download the repository contents by clicking on the green `<code>` button, selecting `Download ZIP`, and then unpacking the downloaded zip file.
 * Change to the directory `programming-2-ex-0`: `cd programming-2-ex-0/hello-world`.
 * Eventually VSCode will ask you to import the build, please click “Import build”
 * Run `sbt`
