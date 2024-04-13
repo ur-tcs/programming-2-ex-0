@@ -1,18 +1,18 @@
 # Programming 2 - Exercise 0 : Setting-up VSCode and Scala
 
-A step-by-step guide to install Scala 3 and VSCode on your computer, as well a some useful plugins. If you are using the faculty computers, you're not concerned by the first steps.
+This page provides a step-by-step guide to install Scala 3 and/or Visual Studio Code (VSCode) on your computer, as well a some useful plugins. If you are using the lab computers at the University of Regensburg (CIP-Pools), you can directly start VSCode and jump to the part about Scala extensions.
 
 ## VSCode Installation
-  
+
 * Open your favourite web browser and go to this webpage: https://code.visualstudio.com/download
 * Download the executable corresponding to your distribution and follow the instructions.
 
-  
-
 ## Scala Installation
 
-* Open your favourite web browser and go to this webpage: https://www.scala-lang.org/download/
-* Follow the instruction related to your distribution 
+We recommend that you use VSCode to do the course exercises. In this case, it is not necessary to install Scala separately, the VSCode Scala extensions (below) suffice. If you prefer, however, you can also install Scala and the Scala build tool `sbt` yourself and use any other IDE or text editor.
+
+* Open your favourite web browser and go to this webpage: https://docs.scala-lang.org/getting-started/index.html
+* Follow the instruction related to your OS
 * You may need to restart your terminal, log out, or reboot in order for the changes to take effect
 
 
