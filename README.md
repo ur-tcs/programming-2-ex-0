@@ -31,7 +31,7 @@ The extension "Scala (Metals)" adds various kinds of functionality to work with 
 
 ### From this github repository
 
-This repository contains a simple hello-world project that you can use to get started.
+This repository contains a simple hello-world project that you can use to get started. For the following steps to work, you need to have followed the "VSCode Installation" and "Scala Extension for VSCode" above.
 
 * You first need to create a local copy of the repository contents on your computer. If you have `git` installed on your computer, you can *clone* the repository using the command `git clone https://github.com/ur-tcs/programming-2-ex-0.git`, which will copy over all files to a sub-directory of your current directory. Alternatively, in your web browser you can download the repository contents by clicking on the green `<code>` button, selecting `Download ZIP`, and then unpacking the downloaded zip file.
 * In VSCode, choose `File - Open Folder` and select the `programming-2-ex-0` directory. You will be able to see the different downloaded files in the `Explorer` pane, in particular the `build.sbt` file containing the Scala build configuration, and the sources `src/main/scala/Main.scala`.
