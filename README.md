@@ -68,6 +68,9 @@ Here is the initial project that you have downloaded:
         - main
             - scala (all of your Scala code goes here)
                 - Main.scala (Entry point of program) <-- this is all we need for now
+        - test
+            - scala
+                - MySuite.scala (unit tests for this project)
 ```
 
 When you compiled it, new files appears. Do not pay too much attention to them for now, you are going to work with `Main.scala`, at least at the beginning. 
@@ -80,4 +83,4 @@ When you compiled it, new files appears. Do not pay too much attention to them f
     - programming-2-ex-1
     - ...
 ```
-* When we ask you to type and/or run a specific command (for instance, `git clone myProject`), we can directly give you the command or write it that way: ```$ git clone myProject`. The `$` symbol is called the prompt and isn’t part of the command. It’s a convention used to indicate that the following command should be executed in a terminal.
+* When we ask you to type and/or run a specific command (for instance, `git clone myProject`), we can directly give you the command or write it that way: ```$ git clone myProject```. The `$` symbol is called the prompt and is not part of the command. Writing a project is a convention used to indicate that the following command should be executed in a terminal.
