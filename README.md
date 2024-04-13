@@ -27,12 +27,14 @@ The extension "Scala (Metals)" adds various kinds of functionality to work with 
 * Change to the "Extensions" pane and search for "Metals"
 * In command line: https://marketplace.visualstudio.com/items?itemName=scalameta.metals
 
-## Your First Project in Scala
+## Scala Hello World: Your First Project in Scala
 
-### With Github
-* Go to the following page: [https://github.com/ur-tcs/programming-2-ex-0.git](https://github.com/ur-tcs/programming-2-ex-0.git).
-* Clone or fork the repository: `git clone https://github.com/ur-tcs/programming-2-ex-0.git` or download it by clicking on the green `<code>` button and select `download`.
-* Go into programming-2-ex-0: `cd programming-2-ex-0/hello-world`.
+### From this github repository
+
+This repository contains a simple hello-world project that you can use to get started.
+
+* You first need to create a local copy of the repository contents on your computer. If you have `git` installed on your computer, for this you can *clone* the repository using the command `git clone https://github.com/ur-tcs/programming-2-ex-0.git`. Alternatively, in your web browser you can download the repository contents by clicking on the green `<code>` button, selecting `Download ZIP`, and then unpacking the downloaded zip file.
+* Change to the directory `programming-2-ex-0`: `cd programming-2-ex-0/hello-world`.
 * Eventually VSCode will ask you to import the build, please click “Import build”
 * Run `sbt`
 * Type `run`
