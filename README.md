@@ -29,7 +29,7 @@ The extension "Scala (Metals)" adds various kinds of functionality to work with 
 
 ## Scala Hello World: Your First Project in Scala
 
-### From this github repository
+### Using VSCode, from this github repository
 
 This repository contains a simple hello-world project that you can use to get started. For the following steps to work, you need to have followed the "VSCode Installation" and "Scala Extension for VSCode" above.
 
@@ -37,9 +37,8 @@ This repository contains a simple hello-world project that you can use to get st
 * In VSCode, choose `File - Open Folder` and select the `programming-2-ex-0` directory. You will be able to see the different downloaded files in the `Explorer` pane, in particular the `build.sbt` file containing the Scala build configuration, and the sources `src/main/scala/Main.scala`.
 * To compile and run this project, you need to import the build settings into VSCode. Scala Metals might by itself offer to `Import build`, which you can agree to. Otherwise, change to the Metals pane (the "m" icon on the left side) and select the `Build Command` `Import build`.
 * Once the project has been compiled, you can execute the program by selecting the `Main.scala` file and selecting `run` or `debug`.
-* You can run the hello-world program also from the command line. For this, change to the directory `programming-2-ex-0`, start `sbt` and then `run`.
 
-### By setting up a new project using sbt
+### On the command line, by setting up a new project using sbt
 
 For the following steps to work, you need to have followed the "Scala Installation" part above.
 
