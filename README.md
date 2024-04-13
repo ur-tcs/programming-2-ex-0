@@ -1,6 +1,6 @@
 # Programming 2 - Exercise 0: Setting up Visual Studio Code and Scala
 
-This page provides a step-by-step guide to install Scala 3 and/or Visual Studio Code (VSCode) on your computer, as well a some useful plugins. If you are using the lab computers at the University of Regensburg (CIP-Pools), you can directly start VSCode and jump to the part about Scala extensions.
+This page provides a step-by-step guide to install Scala 3 and/or Visual Studio Code (VSCode) on your computer, as well a some useful plugins. If you are using the lab computers at the University of Regensburg (CIP-Pools), you will find VSCode already installed, but you still need to take care of the Scala and VSCode Extensions installation.
 
 *Warning:* It's essential to ensure that the paths to your projects do not contain spaces, special characters, or non-English letters. This is especially relevant on Windows, where historically, issues arose with usernames containing spaces or special characters.
 
