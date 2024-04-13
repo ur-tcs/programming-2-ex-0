@@ -13,7 +13,7 @@ This page provides a step-by-step guide to install Scala 3 and/or Visual Studio 
 
 ### Scala Installation
 
-We recommend that you use VSCode to do the course exercises. In this case, it is not strictly necessary to install Scala separately, the VSCode Scala extensions (below) suffice. However, if you want to use Scala in interactive mode, or to use other text editor for writing Scala code, follow those steps to install Scala and the Scala build tool `sbt`:
+We recommend that you use VSCode to do the course exercises. To be able to use Scala on the command line, or in interactive mode, or to use other text editors for writing Scala code, follow those steps to install Scala and the Scala build tool `sbt`:
 
 * Open your favourite web browser and go to this webpage: https://docs.scala-lang.org/getting-started/index.html
 * Follow the instruction related to your OS to install Scala version 3
