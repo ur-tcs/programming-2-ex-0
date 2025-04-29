@@ -78,16 +78,6 @@ Here is the initial project that you have downloaded:
 
 When you compiled it, new files appears. Do not pay too much attention to them for now, you are going to work with `Main.scala`, at least at the beginning. 
 
-## Exercises Management for this Course
-* We will provide each exercise in a separate github repository. We recommend that you to create a folder (for example, `ProgrammingII`) for all the exercises, in order to have the following hierarchy: 
-```
-- ProgrammingII
-    - programming-2-ex-0
-    - programming-2-ex-1
-    - ...
-```
+## Writing Commands
+
 * When we ask you to type and/or run a specific command (for instance, `git clone myProject`), we can directly give you the command or write it that way: ```$ git clone myProject```. The `$` symbol is called the prompt and is not part of the command. Writing a project is a convention used to indicate that the following command should be executed in a terminal.
-
-## Next steps
-
-You can now start with the first exercise of the course: https://github.com/ur-tcs/programming-2-ex-1
